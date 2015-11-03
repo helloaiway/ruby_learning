@@ -1,7 +1,5 @@
 # example 1:
-a = Proc.new do |x, y|
-			x + y**2
-		end
+a = Proc.new { x + y**2 }
 #example 2:
 b = lambda { |x, y| x + y**2 }
 
